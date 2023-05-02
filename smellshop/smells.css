@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 header{
     display: flex;
     justify-content: space-between;
@@ -33,14 +32,11 @@ section{
     overflow-x: hidden;
 }
 section img{
-    display: flex;
+    display: block;
+    margin: 0 auto;      
     justify-content: space-between;
-    width: 1930px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 30px;
+}
 
-} 
 .promotion-header{
     display: flex;
     justify-content: space-between;

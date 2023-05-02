@@ -30,17 +30,14 @@ nav{
 }
 
 section{
-    overflow-x: hidden;
+    overflow-x: hidden;   
 }
+
 section img{
     display: flex;
-    justify-content: space-between;
-    width: 1930px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 30px;
-
-} 
+    align-items: center;
+    margin: 5px;
+}   
 .promotion-header{
     display: flex;
     justify-content: space-between;
@@ -74,7 +71,7 @@ main{
 .product{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 30px;
 }
 
 .product img{
