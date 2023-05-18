@@ -37,6 +37,9 @@ section img{
     display: flex;
     align-items: center;
     margin: 5px;
+    height: 400%;
+    margin-left: auto;
+    margin-right: auto;
 }   
 .promotion-header{
     display: flex;
